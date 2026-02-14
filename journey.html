@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Journey Begins</title>
+
+  <!-- Google Font (Stylish but readable) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="journey.css">
+</head>
+
+<body>
+
+  <!-- Floating background -->
+  <div class="float-bg"></div>
+
+  <main class="journey-container">
+
+    <h1 class="title">OUR JOURNEY BEGINS FROM HERE</h1>
+
+    <div class="name-input">
+      <p>Tell me your name 💗</p>
+      <input type="text" id="partnerName" placeholder="Enter your name">
+      <button onclick="revealJourney()">Continue</button>
+    </div>
+
+    <div class="reveal hidden">
+      <h2 class="names">
+        SAYAN <span>✦</span> <span id="finalName"></span>
+      </h2>
+
+      <p class="datetime" id="dateTime"></p>
+    </div>
+
+  </main>
+
+<script src="journey.js"></script>
+</body>
+</html>
